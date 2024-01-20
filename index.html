@@ -9,14 +9,20 @@
 </head>
 <body>
     
-    <div class="full"></div>
+    <!--Background-->
+    <div class="bg"></div>
+    
+    <!--Top bar-->
     <div class="side_bar">
         <h1 class="bt">Calculator</h1>
     </div>
     
+    <!--Div to detect clicks to close menu-->
     <div class="modal">
-        <div class="nav" >
-            <ul class="menu">
+            
+        <!--Menu navigation-->
+        <div class="menu" >
+            <ul class="menu-nav">
                 <a href="https://github.com/danillojs/danillojs">
                     <img src="https://skills.thijs.gg/icons?i=github">
                 </a>
@@ -26,15 +32,16 @@
                 <a href="https://www.instagram.com/423_danillo?igsh=MWVrY3Eza2w2ZnhkeQ==">
                     <img src="https://skills.thijs.gg/icons?i=instagram">
                 </a>
-                
             </ul>
         </div>
     </div>
     
+    <!--Input that receives values from the keyboard-->
     <div class="field_num">
         <input id="field" class="input_num" type="text" />
     </div>
-
+    
+    <!--Mathematical operations buttons-->
     <div>
         <ul class="operations">
             <button id="clear2" onclick="deleteFull()" class="operate"><i class="fa-solid fa-trash-can"></i></button>
@@ -45,12 +52,13 @@
             <button id="clear" onclick="deleteValue()" class="operate"><i class="fa-solid fa-delete-left"></i></button>
         </ul>
     </div>
-
+    
+    <!--Math keyboard keys-->
     <div class="keys">
         <ul>
-            <button id="btn_1" onclick="showNum('1')" class="key">1</button>
+            <button onclick="showNum('1')" class="key">1</button>
             <button onclick="showNum('2')" class="key">2</button>
-            <button id="btn_3" onclick="showNum('3')" class="key">3</button>
+            <button onclick="showNum('3')" class="key">3</button>
         </ul>
         <ul>
             <button onclick="showNum('4')" class="key">4</button>
@@ -63,12 +71,11 @@
             <button onclick="showNum('9')" class="key">9</button>
         </ul>
         <ul>
-            <button id="btn_2" onclick="showNum('0')" class="key">0</button>
+            <button onclick="showNum('0')" class="key">0</button>
             <button onclick="showNum('.')" class="key">.</button>
-            <button id="btn_4" onclick="calculate()" class="key">=</button>
+            <button onclick="calculate()" class="key">=</button>
         </ul>
     </div>
-
     <script src="script.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>

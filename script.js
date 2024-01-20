@@ -1,4 +1,6 @@
 
+// l
+
 function showNum(num) {
     const valueInput = document.getElementById('field').value
     document.getElementById('field').value = valueInput + num
@@ -41,7 +43,7 @@ bt.addEventListener("click", () => {
     }
 })
 
-let menu = document.querySelector(".menu")
+let menu = document.querySelector(".menu-nav")
 function fecha() {
     nav.style.width = "0"
     modal.style.display = "none"
@@ -53,7 +55,7 @@ function abre() {
 }
 
 let modal = document.querySelector(".modal")
-let nav = document.querySelector(".nav")
+let nav = document.querySelector(".menu")
 modal.addEventListener("click", function(e) {
     if (e.target == this) fecha()
 })
