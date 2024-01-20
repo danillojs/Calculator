@@ -10,15 +10,20 @@
       Mais presente no Javascript com
       funções e lógica de botões.
     </p>
-    <li>Animação</li>
+    <li><b>Animação</b></li>
     <p>
       Animações nos botões e background
       animado.
     </p>
-    <li>Flexbox</li>
+    <li><b>Flexbox</b></li>
     <p>
       Botões do teclado da calculadora
       posicionados em ordem e centralizados.
+    </p>
+    <li><b>Diretório</b></li>
+    <p>
+      Imagens internas e externas importadas
+      no projeto.
     </p>
   </ul>
 </p>
