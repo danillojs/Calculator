@@ -28,7 +28,7 @@
   </ul>
 </p>
 <p>
-  <a href="calculator-ecru-eight.vercel.app/">Ver funcionando!</a>
+  <a href="https://calculator-ecru-eight.vercel.app/">Ver funcionando!</a>
 </p>
 <h3>Tecnologias usadas</h3>
 <img src="https://skills.thijs.gg/icons?i=html,css,javascript">
